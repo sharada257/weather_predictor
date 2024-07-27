@@ -1,0 +1,88 @@
+*{
+    box-sizing:border-box;
+    margin:0px;
+    
+}
+h1{
+    display:inline;
+    position: fixed;
+    top:20px;
+    left: 20px;
+    color: antiquewhite;
+    
+}
+
+header{
+    height: 15vh;
+    background-color: rgb(33, 33, 34);
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding:20px;
+}
+
+
+input{
+    width: 500px;
+    height:30px;
+    background-color: transparent;
+    font-size: 20px;
+    border: 0px;
+    border-bottom: 2px solid white;
+    color: white;
+
+}
+button{
+    color: black;
+    width: 100px;
+    height:40px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    text-decoration: solid;
+    
+}
+body{
+    background-color: rgb(11, 54, 41);
+    
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:85vh;
+
+
+}
+.weatherbox{
+    font-size: 20px;
+    color:black;
+    padding:20px;
+    background-color: white;
+    width: 60vh;
+    height:30vh;
+    border-radius: 10px;
+    display:flex;
+    justify-content: space-between;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.timeplace{
+    margin-top:30px;
+    
+}
+.place{
+    font-size: 30px;
+}
+.temperature{
+    margin-top:30px;
+}
+.timedate{
+    margin-top:15px;
+}
+.weathericon{
+    margin-left: 15px;
+}
+
